@@ -24,5 +24,9 @@ setup(
     long_description=read('README.md'),
     license='MIT',
 
+    install_requires=[
+        "requests>=2.22.0",
+    ],
+
     keywords=['brightpearl', 'api', 'client'],
 )
